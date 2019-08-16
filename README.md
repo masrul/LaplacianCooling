@@ -1,7 +1,7 @@
 # Laplacian cooling in adiabatic process 
 
-## One source 
+## One heat source 
 ![](cooling-1-source.gif)
 
-## Four sources 
+## Four heat sources 
 ![](cooling-4-source.gif)
