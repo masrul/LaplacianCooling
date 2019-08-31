@@ -92,7 +92,7 @@ for itr in range(niterations):
         im = plt.imshow(
                 room, 
                 interpolation='none', 
-                cmap=cm.Spectral_r,
+                cmap=cm.jet,
                 origin='lower', 
                 extent=[-10,10,-10,10],
                 vmax=100, vmin=0
