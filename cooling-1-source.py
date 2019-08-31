@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation 
+
 n=75  # grid size
 r=10  # source size 
 T=1000 # temperature 
@@ -63,7 +64,7 @@ for itr in range(niterations):
         im = plt.imshow(
                 room, 
                 interpolation='none', 
-                cmap=cm.Spectral_r,
+                cmap=cm.jet,
                 origin='lower', 
                 extent=[-10,10,-10,10],
                 vmax=100, vmin=0
